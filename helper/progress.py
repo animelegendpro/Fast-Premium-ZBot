@@ -29,7 +29,7 @@ async def progress_for_pyrogram(current, total, ud_type, message, start):
         )
 
         
-        cancel_button = InlineKeyboardButton("✖️ Cancel ✖️", callback_data="cancel")
+        cancel_button = InlineKeyboardButton("✘ ᴄᴀɴᴄᴇʟ ✘", callback_data="cancel")
 
         try:
             await message.edit(
